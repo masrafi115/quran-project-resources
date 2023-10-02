@@ -1,0 +1,1 @@
+jq 'del(.[].caption)' $1

@@ -1,0 +1,1 @@
+jq 'map_values({caption: .page,page: .caption})' $1

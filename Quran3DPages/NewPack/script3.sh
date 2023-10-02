@@ -1,0 +1,1 @@
+jq 'map({pag: .[0].page,captio: .[1].caption})' $1
